@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: lYW5GJKoOcGM++IERqxpPBZjfyWsC6vLoTOAeTwALoULKKKAxdBqYAvqF+qnLPb3tPvQNy2zhEIkMNFAGVDgCItZjJKYypJVKUc6MV8wmY/kyunC1pWAKOkb3vuU2keX4EE4tkzGTngYkUPvZth/5ZZTn6RgYxSAfqPIH2N6PY+6Wd3NPMWbIMgp+/Q44ST9o35q8HlJ5U/i2rooMHpuHAxgnVZDIOdkHn2B4HuXaUTVB78ydvKndcaLuy5oZNjwIQmnSftbRkoj3ncWfnNn+GTzsN9+IM/RtwWsnLpeC3KKUIi15TnX0pIzyrPXi1waYc+v2HIMv+QBR5wBIFUARwrENDKsmjluxyrrVDRWct0moBRReq+u+WtpToni1Nx5GuXdmw214fVLvUEct6JwbzNJHdjkPLQKNUsNwA8HNY1e0JHM0iRimvmZYFOhn41o6dVXygd8xWTwQIr2HaqtcOOWlKW6VGDiYx8LdojnqhLOdD+C8dNa8bkdWjfZH14j9M0GWfId4BrBKmZUV7WZUrsc7eMXSaPHtzBgOpy5mqWsN0JSNTLkNY6gwTpqQLfRuKEtfWg/AWUhnG572dlkpoR3mWWK+mFINpU+bDTnhWqIpoCF8N+g4UdPUYRhSR0BDzTKXLgIHnX10yJewKZCW2JDhaKiU1KBNRth/hST3BU=
+  app: salty-caverns-67895
+  on:
+    repo: d-hongbro/blog-app-mongoose-challenge-solution
